@@ -51,5 +51,5 @@ test:
 production:
   <<: *default
   database: rails6173_vagrant_production
-  username: rails6173_vagrant
-  password: <%= ENV['RAILS6173_VAGRANT_DATABASE_PASSWORD'] %>
+#  username: rails6173_vagrant
+#  password: <%= ENV['RAILS6173_VAGRANT_DATABASE_PASSWORD'] %>
